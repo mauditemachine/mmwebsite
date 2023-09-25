@@ -3,25 +3,24 @@
 <head>
   <title>Maudite Machine</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     /* Styles généraux */
     html, body {
       height: 100%;
       margin: 0;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background-color: #f4f4f4;
     }
-
     /* En-tête */
     .header {
-      background-color: #50b3a2;
+      background-color: #8e44ad;  /* Nouvelle couleur */
       color: white;
       text-align: center;
       padding: 2em;
       font-size: 2em;
+      text-transform: uppercase;  /* Majuscules */
     }
-
     /* Contenu principal */
     .main-content {
       flex: 1;
@@ -30,7 +29,10 @@
       background-color: #fff;
       text-align: center;
     }
-
+    .bio {
+      text-align: left;
+      margin-top: 20px;
+    }
     /* Pied de page */
     .footer {
       background-color: #333;
@@ -41,13 +43,12 @@
       bottom: 0;
       width: 100%;
     }
-
     /* Boutons et liens sociaux */
     .social-icons {
-      font-size: 48px; /* Icônes plus grandes */
-      margin: 20px;   /* Plus d'espace autour des icônes */
-    } 
-
+      font-size: 72px;  /* Icônes plus grandes */
+      color: inherit;  /* Couleur originale */
+      margin: 20px;
+    }
   </style>
 </head>
 <body>
@@ -57,7 +58,11 @@
   
   <div class="main-content">
     <a href="https://soundcloud.com/mauditemachine" target="_blank" class="social-icons"><i class="fab fa-soundcloud"></i></a>
-    <a href="https://facebook.com/mauditemachine" target="_blank" class="social-icons"><i class="fab fa-facebook"></i></a>
+    <a href="https://facebook.com/mauditemachine" target="_blank" class="social-icons"><i class="fab fa-facebook-f"></i></a>
+    <div class="bio">
+      <p>Maudite Machine, a producer and dj with a dark disco and indie dance style, ... </p>
+      <p>Maudite Machine, un producteur et dj au style dark disco et de indie dance, ...</p>
+    </div>
   </div>
 
   <div class="footer">
