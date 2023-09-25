@@ -6,10 +6,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     /* Styles généraux */
-    body {
-      font-family: 'Roboto', sans-serif;
+    html, body {
+      height: 100%;
       margin: 0;
-      padding: 0;
+      font-family: 'Roboto', sans-serif;
       background-color: #f4f4f4;
     }
 
@@ -18,11 +18,13 @@
       background-color: #50b3a2;
       color: white;
       text-align: center;
-      padding: 1em;
+      padding: 2em;
+      font-size: 2em;
     }
 
     /* Contenu principal */
     .main-content {
+      flex: 1;
       margin: 15px;
       padding: 15px;
       background-color: #fff;
@@ -35,34 +37,24 @@
       color: white;
       text-align: center;
       padding: 1em;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
     }
 
     /* Boutons et liens sociaux */
-    .btn {
-      background-color: #50b3a2;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-
-    .btn:hover {
-      background-color: #338771;
-    }
-
     .social-icons {
-      font-size: 24px;
-      margin: 10px;
+      font-size: 48px; /* Icônes plus grandes */
+      margin: 20px;   /* Plus d'espace autour des icônes */
     } 
 
   </style>
 </head>
 <body>
-
   <div class="header">
     <h1>Maudite Machine</h1>
   </div>
-
+  
   <div class="main-content">
     <a href="https://soundcloud.com/mauditemachine" target="_blank" class="social-icons"><i class="fab fa-soundcloud"></i></a>
     <a href="https://facebook.com/mauditemachine" target="_blank" class="social-icons"><i class="fab fa-facebook"></i></a>
